@@ -64,7 +64,13 @@
   padding: 10px 20px;
   border-radius: 30px;
   background-color: black;
+  transition: ease 0.3s;
 }
+
+.detail-container a:hover{
+  background-color: rgb(112, 112, 112);
+}
+
 .detail-container a h6{
   font-size: 0.5rem;
   color: white;

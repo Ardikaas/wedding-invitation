@@ -1,0 +1,62 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background: url(../assets/bg2.jpg);
+  background-size: cover;
+  /* height: 100vh; */
+  padding: 50px 0;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 50rem;
+  padding: 50px 0;
+  gap: 10px;
+}
+
+.about h4{
+  font-size: 0.8rem;
+}
+
+.about h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.dif-te-top{
+  margin: 0;
+  width: 400px;
+  text-align: center;
+}
+
+.dif-te-bot{
+  margin: 0;
+  width: 600px;
+  text-align: center;
+}
+
+.about-bismil{
+  width: 150px;
+}
+
+.about-name-ce{
+  width: 150px;
+}
+
+.about-name-co{
+  width: 235px;
+}
+
+.about-ring{
+  width:60px;
+}
+
+.about-fp{
+  width: 100px;
+}

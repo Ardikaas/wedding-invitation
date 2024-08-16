@@ -1,0 +1,82 @@
+.detail-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background: url(../assets/bg2.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 50px 0;
+  gap: 50px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  width: 50rem;
+  padding: 50px 0;
+}
+
+.pukul{
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.detail-date{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 1rem;
+}
+
+.detail-date h3{
+  font-weight: 800;
+  padding-left: 1rem;
+}
+
+.detail-date-down{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.lokasi{
+  padding-top: 50px;
+}
+
+.detail-container a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: black;
+}
+.detail-container a h6{
+  font-size: 0.5rem;
+  color: white;
+}
+
+.detail-foot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-foot img{
+  width: 200px;
+}

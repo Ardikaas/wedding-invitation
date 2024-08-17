@@ -1,48 +1,24 @@
-import { useEffect, useRef } from "react";
+import { useRef, useState } from "react";
 import About from "../components/About/About";
 import Detail from "../components/Detail/Detail";
 import Footer from "../components/Footer/Footer";
 import Home from "../components/Home/Home";
 import backgroundMusic from "../components/assets/song.mp3";
+import Popup from "../components/Popup/Popup";
 
 const Landing = () => {
+  const [showPreloader, setShowPreloader] = useState(true);
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    document.title = "Undangan Pernikahan | Nova & Rizki";
-
-    // Simpan referensi audioRef.current ke variabel lokal
-    const audioElement = audioRef.current;
-
-    const handleUserInteraction = () => {
-      if (audioElement && audioElement.paused) {
-        audioElement.play().catch((error) => {
-          console.log("Autoplay gagal:", error);
-        });
-      }
-    };
-
-    // Tambahkan event listener untuk berbagai jenis interaksi pengguna
-    window.addEventListener("mousedown", handleUserInteraction);
-    window.addEventListener("touchstart", handleUserInteraction);
-    window.addEventListener("scroll", handleUserInteraction);
-
-    return () => {
-      // Hapus event listener saat komponen di-unmount
-      window.removeEventListener("mousedown", handleUserInteraction);
-      window.removeEventListener("touchstart", handleUserInteraction);
-      window.removeEventListener("scroll", handleUserInteraction);
-
-      // Gunakan referensi lokal untuk memastikan konsistensi
-      if (audioElement) {
-        audioElement.pause();
-        audioElement.currentTime = 0; // Reset posisi audio
-      }
-    };
-  }, []);
+  const handlePreloaderComplete = () => {
+    setShowPreloader(false);
+  };
 
   return (
     <div>
+      {showPreloader && (
+        <Popup onComplete={handlePreloaderComplete} audioRef={audioRef} />
+      )}
       <Home />
       <About />
       <Detail />

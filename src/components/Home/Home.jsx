@@ -5,7 +5,7 @@ import "./Home.style.css";
 import { useEffect, useState } from "react";
 import { useRef } from "react";
 
-const Home = () => {
+const Home = ({ onImageLoad }) => {
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
@@ -50,8 +50,13 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="flower">
-        <img className="flower-kiri" src={flower} alt="" />
-        <img className="flower-kanan" src={flower} alt="" />
+        <img className="flower-kiri" src={flower} alt="" onLoad={onImageLoad} />
+        <img
+          className="flower-kanan"
+          src={flower}
+          alt=""
+          onLoad={onImageLoad}
+        />
       </div>
       <div className="home">
         <div className="text">
@@ -61,8 +66,8 @@ const Home = () => {
           <h4>anda untuk hadir di acara pernikahan kami</h4>
         </div>
         <div className="tengah">
-          <img className="nama" src={nama} alt="" />
-          <img className="frame" src={frame} alt="" />
+          <img className="nama" src={nama} alt="" onLoad={onImageLoad} />
+          <img className="frame" src={frame} alt="" onLoad={onImageLoad} />
         </div>
         <div className="tanggal">
           <div className="tanggal-text">

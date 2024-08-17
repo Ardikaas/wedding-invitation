@@ -5,7 +5,7 @@
 }
 
 .flower img {
-  width: 250px;
+  width: 300px;
   position: absolute;
 }
 
@@ -59,14 +59,14 @@
 }
 
 .nama {
-  width: 115px;
+  width: 125px;
   position: absolute;
-  top: 48%;
+  top: 43%;
 }
 
 .frame {
   width: 325px;
-  top: 32%;
+  top: 30%;
   position: absolute;
   animation: spin 20s linear infinite;
 }
@@ -78,7 +78,7 @@
   justify-content: center;
   gap: 10px;
   position: absolute;
-  bottom: 3%;
+  bottom: 5%;
 }
 
 .tanggal-text {
@@ -130,5 +130,443 @@
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 1920px){
+  .flower img {
+    width: 400px;
+  }
+
+  .text {
+    padding-top: 5%;
+  }
+  
+  .text h1 {
+    font-size: 3rem;
+  }
+  
+  .text h3 {
+    font-size: 1.7rem;
+    padding: 30px;
+  }
+  
+  .text h4 {
+    font-size: 1.7rem;
+  }
+  
+  .nama {
+    width: 200px;
+    position: absolute;
+    top: 47%;
+  }
+  
+  .frame {
+    width: 525px;
+    top: 32%;
+  }
+
+  .tanggal{
+    gap: 20px;
+    bottom: 3%;
+  }
+  
+  .tanggal-text {
+    gap: 15px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 1.9rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 1.9rem;
+  }
+
+  .countdown{
+    gap: 25px;
+  }
+  
+  .countdown-frame{
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1.9rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 1536px){
+  .flower img {
+    width: 300px;
+  }
+
+  .flower-kiri {
+    left: -6%;
+    top: -10%;
+  }
+  
+  .flower-kanan {
+    right: -6%;
+    top: -10%;
+  }
+
+  .text {
+    padding-top: 3%;
+  }
+  
+  .text h1 {
+    font-size: 1.8rem;
+  }
+  
+  .text h3 {
+    font-size: 0.8rem;
+  }
+  
+  .text h4 {
+    font-size: 0.8rem;
+  }
+  
+  .nama {
+    width: 125px;
+    top: 43%;
+  }
+  
+  .frame {
+    width: 325px;
+    top: 30%;
+  }
+
+  .tanggal{
+    gap: 10px;
+    bottom: 5%;
+  }
+  
+  .tanggal-text {
+    gap: 10px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 1rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 1rem;
+  }
+
+  .countdown{
+    gap: 25px;
+  }
+  
+  .countdown-frame{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1.7rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 1440px){
+  .flower img {
+    width: 325px;
+  }
+
+  .text {
+    padding-top: 5%;
+  }
+  
+  .text h1 {
+    font-size: 2.8rem;
+  }
+  
+  .text h3 {
+    font-size: 1.5rem;
+  }
+  
+  .text h4 {
+    font-size: 1.5rem;
+  }
+  
+  .nama {
+    width: 175px;
+    position: absolute;
+    top: 44%;
+  }
+  
+  .frame {
+    width: 475px;
+    top: 31%;
+  }
+
+  .tanggal{
+    gap: 20px;
+    bottom: 5%;
+  }
+  
+  .tanggal-text {
+    gap: 15px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 1.7rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .countdown{
+    gap: 25px;
+  }
+  
+  .countdown-frame{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1.7rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 1280px){
+  .flower img {
+    width: 250px;
+  }
+
+  .text {
+    padding-top: 5%;
+  }
+  
+  .text h1 {
+    font-size: 2rem;
+  }
+  
+  .text h3 {
+    font-size: 1.2rem;
+  }
+  
+  .text h4 {
+    font-size: 1.2rem;
+  }
+  
+  .nama {
+    width: 120px;
+    position: absolute;
+    top: 47%;
+  }
+  
+  .frame {
+    width: 325px;
+    top: 33%;
+  }
+
+  .tanggal{
+    gap: 20px;
+    bottom: 5%;
+  }
+  
+  .tanggal-text {
+    gap: 15px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .countdown{
+    gap: 20px;
+  }
+  
+  .countdown-frame{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1.2rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .flower img {
+    width: 300px;
+  }
+
+  .flower-kiri {
+    left: -13%;
+    top: -7%;
+  }
+  
+  .flower-kanan {
+    right: -13%;
+    top: -7%;
+  }
+
+  .text {
+    padding-top: 30%;
+  }
+  
+  .text h1 {
+    font-size: 2rem;
+  }
+  
+  .text h3 {
+    font-size: 1.2rem;
+  }
+  
+  .text h4 {
+    font-size: 1.2rem;
+  }
+  
+  .nama {
+    width: 210px;
+    position: absolute;
+    top: 47%;
+  }
+  
+  .frame {
+    width: 525px;
+    top: 35%;
+  }
+
+  .tanggal{
+    gap: 25px;
+    bottom: 10%;
+  }
+  
+  .tanggal-text {
+    gap: 20px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .countdown{
+    gap: 25px;
+  }
+  
+  .countdown-frame{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1.5rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .flower img {
+    width: 150px;
+  }
+
+  .flower-kiri {
+    left: -15%;
+    top: -6%;
+  }
+  
+  .flower-kanan {
+    right: -15%;
+    top: -6%;
+  }
+
+  .text {
+    padding-top: 30%;
+  }
+  
+  .text h1 {
+    font-size: 1.1rem;
+  }
+  
+  .text h3 {
+    font-size: 0.6rem;
+  }
+  
+  .text h4 {
+    font-size: 0.6rem;
+  }
+  
+  .nama {
+    width: 100px;
+    position: absolute;
+    top: 47%;
+  }
+  
+  .frame {
+    width: 300px;
+    top: 35%;
+  }
+
+  .tanggal{
+    gap: 20px;
+    bottom: 10%;
+  }
+  
+  .tanggal-text {
+    gap: 10px;
+  }
+  
+  .tanggal-text h3 {
+    font-size: 0.6rem;
+  }
+
+  .tanggal-text h2 {
+    font-size: 0.6rem;
+  }
+
+  .countdown{
+    gap: 20px;
+  }
+  
+  .countdown-frame{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .countdown-frame h3{
+    font-size: 1rem;
+  }
+
+  .countdown-frame h6{
+    font-size: 0.5rem;
   }
 }

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { useRef } from "react";
 
 const Home = () => {
+  console.log(window.innerWidth, window.innerHeight);
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");

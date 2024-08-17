@@ -6,8 +6,7 @@
   color: black;
   background: url(../assets/bg2.jpg);
   background-size: cover;
-  /* height: 100vh; */
-  padding: 50px 0;
+  height: 100vh;
 }
 
 .about{
@@ -59,4 +58,288 @@
 
 .about-fp{
   width: 100px;
+}
+
+@media only screen and (min-width: 1920px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    gap: 15px;
+    padding: 40px 0;
+  }
+
+  .about-bismil{
+    width: 250px;
+  }
+
+  .dif-te-top{
+    width: 600px;
+  }
+
+  .about-fp{
+    width: 150px;
+  }
+
+  .about-name-ce{
+    width: 200px;
+  }
+
+  .about-ring{
+    width:80px;
+  }
+
+  .about-name-co{
+    width: 285px;
+  }
+
+  .dif-te-bot{
+    width: 650px;
+  }
+
+  .about h4{
+    font-size: 1rem;
+  }
+  
+  .about h3{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1536px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    padding: 40px 0;
+    gap: 10px;
+  }
+
+  .about-bismil{
+    width: 200px;
+  }
+
+  .dif-te-top{
+    width: 550px;
+  }
+
+  .about-fp{
+    width: 100px;
+  }
+
+  .about-name-ce{
+    width: 120px;
+  }
+
+  .about-ring{
+    width:60px;
+  }
+
+  .about-name-co{
+    width: 205px;
+  }
+
+  .dif-te-bot{
+    width: 600px;
+  }
+
+  .about h4{
+    font-size: 0.6rem;
+  }
+  
+  .about h3{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1440px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    gap: 10px;
+    padding: 40px 0;
+  }
+
+  .about-bismil{
+    width: 230px;
+  }
+
+  .dif-te-top{
+    width: 600px;
+  }
+
+  .about-fp{
+    width: 130px;
+  }
+
+  .about-name-ce{
+    width: 180px;
+  }
+
+  .about-ring{
+    width:70px;
+  }
+
+  .about-name-co{
+    width: 265px;
+  }
+
+  .dif-te-bot{
+    width: 650px;
+  }
+
+  .about h4{
+    font-size: 0.8rem;
+  }
+  
+  .about h3{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1280px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    gap: 10px;
+    padding: 30px 0;
+  }
+
+  .about-bismil{
+    width: 190px;
+  }
+
+  .dif-te-top{
+    width: 600px;
+  }
+
+  .about-fp{
+    width: 100px;
+  }
+
+  .about-name-ce{
+    width: 150px;
+  }
+
+  .about-ring{
+    width:40px;
+  }
+
+  .about-name-co{
+    width: 235px;
+  }
+
+  .dif-te-bot{
+    width: 650px;
+  }
+
+  .about h4{
+    font-size: 0.65rem;
+  }
+  
+  .about h3{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    gap: 20px;
+    padding: 30px 0;
+    width: 35rem;
+  }
+
+  .about-bismil{
+    width: 250px;
+  }
+
+  .dif-te-top{
+    width: 380px;
+  }
+
+  .about-fp{
+    width: 150px;
+  }
+
+  .about-name-ce{
+    width: 200px;
+  }
+
+  .about-ring{
+    width:90px;
+  }
+
+  .about-name-co{
+    width: 285px;
+  }
+
+  .dif-te-bot{
+    width: 420px;
+  }
+
+  .about h4{
+    font-size: 1rem;
+  }
+  
+  .about h3{
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .about-container{
+    height: 100vh;
+  }
+
+  .about{
+    gap: 12px;
+    padding: 30px 0;
+    width: 20rem;
+  }
+
+  .about-bismil{
+    width: 200px;
+  }
+
+  .dif-te-top{
+    width: 250px;
+  }
+
+  .about-fp{
+    width: 100px;
+  }
+
+  .about-name-ce{
+    width: 130px;
+  }
+
+  .about-ring{
+    width:50px;
+  }
+
+  .about-name-co{
+    width: 215px;
+  }
+
+  .dif-te-bot{
+    width: 260px;
+  }
+
+  .about h4{
+    font-size: 0.5rem;
+  }
+  
+  .about h3{
+    font-size: 0.8rem;
+  }
 }

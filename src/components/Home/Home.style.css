@@ -2,6 +2,8 @@
   height: 100vh;
   background: url(../assets/bg.jpg);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
 }
 
 .flower img {

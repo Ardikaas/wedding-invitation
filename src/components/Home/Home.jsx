@@ -6,17 +6,17 @@ import { useEffect, useState } from "react";
 import { useRef } from "react";
 
 const Home = () => {
-  console.log(window.innerWidth, window.innerHeight);
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
   const [timerSeconds, setTimerSeconds] = useState("00");
 
-  let interval = useRef(null);
+  const interval = useRef(null);
+
   const startTimer = () => {
     const countdownDate = new Date("August 24, 2024 00:00:00").getTime();
 
-    interval = setInterval(() => {
+    interval.current = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
 
@@ -41,7 +41,9 @@ const Home = () => {
   useEffect(() => {
     startTimer();
     return () => {
-      clearInterval(interval.current);
+      if (interval.current) {
+        clearInterval(interval.current);
+      }
     };
   }, []);
 
